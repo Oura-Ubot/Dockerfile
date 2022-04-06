@@ -2,7 +2,7 @@ FROM python:3.9-slim-buster
 
 ENV DEBIAN_FRONTEND noninteractive
 
-ADD https://raw.githubusercontent.com/poocong/PocongUserbot/main/requirements.txt requirements.txt
+ADD https://raw.githubusercontent.com/Oura-Ubot/OuraUserbot/main/requirements.txt requirements.txt
 RUN set -ex \
     && apt-get -qq update \
     && apt-get -qq -y install --no-install-recommends \
